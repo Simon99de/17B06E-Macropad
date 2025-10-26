@@ -2899,12 +2899,6 @@
 		(uuid "bea8452d-f30a-44a2-b167-8ce713c63659")
 	)
 	(junction
-		(at 260.35 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c114b4c0-68b2-4043-8346-db427619d18a")
-	)
-	(junction
 		(at 66.04 340.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3129,16 +3123,6 @@
 			(type default)
 		)
 		(uuid "086ab04d-4086-427c-992f-819b91a9021d")
-	)
-	(wire
-		(pts
-			(xy 285.75 91.44) (xy 289.56 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "092d97cb-7d29-426e-8aca-ef9598ec5eba")
 	)
 	(wire
 		(pts
@@ -3632,6 +3616,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 105.41) (xy 287.02 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e86c36-103d-4d3d-8a1f-23c7076b743f")
+	)
+	(wire
+		(pts
 			(xy 279.4 339.09) (xy 279.4 344.17)
 		)
 		(stroke
@@ -3759,16 +3753,6 @@
 			(type default)
 		)
 		(uuid "3e049b66-80c9-4a2e-bcd7-cfffb6fa249b")
-	)
-	(wire
-		(pts
-			(xy 283.21 118.11) (xy 260.35 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e42f32a-78fc-4046-935d-82973d4e9fc0")
 	)
 	(wire
 		(pts
@@ -4032,16 +4016,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 41.91) (xy 260.35 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52f89fe3-6937-44fe-8811-3f4c2c738921")
-	)
-	(wire
-		(pts
 			(xy 86.36 350.52) (xy 96.52 350.52)
 		)
 		(stroke
@@ -4159,16 +4133,6 @@
 			(type default)
 		)
 		(uuid "63364234-5720-412d-8a26-ad890bba2867")
-	)
-	(wire
-		(pts
-			(xy 285.75 90.17) (xy 285.75 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63637f3e-25e1-49f0-9592-d216788b0346")
 	)
 	(wire
 		(pts
@@ -5012,16 +4976,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 105.41) (xy 283.21 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace222c4-d436-4b10-8546-2ab315ae4f68")
-	)
-	(wire
-		(pts
 			(xy 86.36 322.58) (xy 96.52 322.58)
 		)
 		(stroke
@@ -5269,6 +5223,16 @@
 			(type default)
 		)
 		(uuid "bfbfb4db-b6e1-4469-bb01-3ce760755efb")
+	)
+	(wire
+		(pts
+			(xy 260.35 33.02) (xy 260.35 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ab7871-d850-4b01-ba62-1a89ddeb04db")
 	)
 	(wire
 		(pts
@@ -5839,16 +5803,6 @@
 			(type default)
 		)
 		(uuid "f8e927af-4836-4b0f-8a57-dbca5a18a442")
-	)
-	(wire
-		(pts
-			(xy 283.21 90.17) (xy 285.75 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa4d81d5-a9cf-43c4-bd97-c0e03f93da4f")
 	)
 	(wire
 		(pts
@@ -7291,6 +7245,71 @@
 		)
 	)
 	(symbol
+		(lib_id "dumbpad-eagle-import:GND")
+		(at 287.02 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3426fd32-1b7a-4dac-9635-63df32fe07f8")
+		(property "Reference" "#GND02"
+			(at 287.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 284.48 110.49 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "dumbpad:"
+			(at 287.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 287.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09853acc-07df-4af8-a9b1-fe36ec537f56")
+		)
+		(instances
+			(project "17B06E-Macropad"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 101.6 266.7 0)
 		(unit 1)
@@ -8134,10 +8153,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d5f84d8-f5f9-4c1e-9285-43934667a195")
 		(property "Reference" "OLED1"
-			(at 233.68 152.3999 0)
+			(at 233.68 151.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,7 +8164,7 @@
 			)
 		)
 		(property "Value" "I2C_OLED_0,91_Zoll_128X32"
-			(at 233.68 154.9399 0)
+			(at 233.68 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,6 +8197,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "I2C" "I²C1"
+			(at 233.68 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "4"
@@ -8592,7 +8619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VCC +5V"
 			(at 106.68 20.32 0)
 			(effects
 				(font
@@ -9679,7 +9706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VCC +5V"
 			(at 218.186 152.4 0)
 			(effects
 				(font
@@ -10854,6 +10881,71 @@
 		)
 	)
 	(symbol
+		(lib_id "dumbpad-eagle-import:VCC")
+		(at 260.35 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4cb7b9a-9746-4087-8dac-af4e9ca3ba1f")
+		(property "Reference" "#SUPPLY03"
+			(at 260.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC +5V"
+			(at 260.35 30.226 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "dumbpad:"
+			(at 260.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88072219-5319-4d75-a2a6-8ef429d4bab2")
+		)
+		(instances
+			(project "17B06E-Macropad"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(reference "#SUPPLY03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dumbpad-eagle-import:DIODEDO-1N4148")
 		(at 66.04 293.37 0)
 		(mirror x)
@@ -11119,71 +11211,6 @@
 			(project ""
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dumbpad-eagle-import:VCC")
-		(at 289.56 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef400389-7e37-4c93-8647-76318089d59f")
-		(property "Reference" "#SUPPLY02"
-			(at 289.56 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 289.56 88.646 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "dumbpad:"
-			(at 289.56 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 289.56 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d1e2df9-cc89-4e18-a541-699f0d20dd45")
-		)
-		(instances
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "#SUPPLY02")
 					(unit 1)
 				)
 			)

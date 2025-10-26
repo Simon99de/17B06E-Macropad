@@ -626,8 +626,8 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
-      "workbook_filename": ""
+      "model_mode": 4,
+      "workbook_filename": "17B06E-Macropad.wbk"
     },
     "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",

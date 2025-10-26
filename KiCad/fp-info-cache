@@ -1,4 +1,4 @@
-13878551070177
+13878584519179
 17B06E-Macropad
 AXIAL-0.3
 <h3>AXIAL-0.3</h3>{return}<p>Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</p>
@@ -19,7 +19,7 @@ MX_PCB
 MX_PCB
 0
 4
-4
+2
 17B06E-Macropad
 LED_3MM
 <h3>LED 3MM PTH</h3>{return}{return}3 mm, round.{return}{return}<p>Specifications:{return}<ul><li>Pin count: 2</li>{return}<li>Pin pitch: 0.1inch</li>{return}<li>Diameter: 3mm</li>{return}</ul></p>{return}<p>Example device(s):{return}<ul><li>LED</li></ul>
