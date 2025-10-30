@@ -1,11 +1,4 @@
-13878584519179
-17B06E-Macropad
-AXIAL-0.3
-<h3>AXIAL-0.3</h3>{return}<p>Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</p>
-
-0
-2
-2
+8722180056998
 17B06E-Macropad
 DO-1N4148
 
@@ -21,13 +14,6 @@ MX_PCB
 4
 2
 17B06E-Macropad
-LED_3MM
-<h3>LED 3MM PTH</h3>{return}{return}3 mm, round.{return}{return}<p>Specifications:{return}<ul><li>Pin count: 2</li>{return}<li>Pin pitch: 0.1inch</li>{return}<li>Diameter: 3mm</li>{return}</ul></p>{return}<p>Example device(s):{return}<ul><li>LED</li></ul>
-
-0
-2
-2
-17B06E-Macropad
 OLED
 
 
@@ -41,13 +27,6 @@ module usb pcb antenna
 0
 40
 40
-17B06E-Macropad
-TACTILE_SWITCH_PTH_6.0MM
-<h3>Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square</h3>{return}<p>Normally-open (NO) SPST momentary switches (buttons, pushbuttons).</p>{return}<p><a href="https://www.omron.com/ecb/products/pdf/en-b3f.pdf">Datasheet</a> (B3F-1000)</p>
-
-0
-4
-4
 17B06E-Macropad
 YS-SK6812MINI-E
 
