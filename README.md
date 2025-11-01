@@ -27,7 +27,7 @@ Every board needs at least the following components but check the right folder f
 * 6x EC11 rotary encoder with pushbutton (7-pin)
 * (optional) 16x SK6812 mini e LEDs
 * 1x 0.91" 128X32 OLED Display (Please note the pinout; there are different ones, and it must also be +5V compatible.)
-* LEDS and OLED required for different configurations
+* (Pin header for the OLED display + for the MCU) 1x4 male headers + 1x4 female headers and ...
 
 #### 3. Assemble your 17B06E-Macropad
 For this step you will need a minimum of a soldering iron and a pair of tweezers
