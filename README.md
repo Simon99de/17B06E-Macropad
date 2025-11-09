@@ -1,40 +1,72 @@
-# The project is still under development!
-#
-
-
 # 17B06E-Macropad
-Simple 4x4 (+1) numpad with 6 rotary encoders. Powered by QMK via Waveshare RP2040-Plus. 
+Simple 4x4 (+1) numpad with 6 rotary encoders. Powered by QMK via Waveshare RP2040-Plus / Raspberry Pi Pico (1). 
 
 ### What does 17B06E mean?
 I chose the name 17B06E-Macropad because it describes everything the Macropad has. 17 Buttons + 6 Encoders. It also has RGB and a small OLED display.
 The top button is used to switch profiles, giving you 16 x 4 (or more/less) buttons at your disposal, with the current profile shown on the display.
 
 ### sources / what was used:
-I used the KiCad template from [dumbpad](https://github.com/imchipwood/dumbpad/) to create this project.
+* I used the KiCad template from [dumbpad](https://github.com/imchipwood/dumbpad/) to create this project. 
+* Thanks to the developer who made it possible: 
 
+## Gallery
+
+![17B06E-Macropad Front](img/fxyz.jpg)
+![17B06E-Macropad Back](img/bxyz.jpg)
 
 ## Getting Started
-To build your own 17B06E Macropad, you must first follow a few steps. The following describes the minimum requirements you need to assemble a dumbpad. 
+To build your own 17B06E Macropad, you must first follow a few steps. The following describes the minimum requirements you need to assemble a 17B06E-Macropad. 
 #### 1. Choose version. 
-You can choose from one of the different versions shown in the step above.
+~~You can choose from one of the different versions shown in the step above.~~
 #### 2. Order your parts. 
 Every board needs at least the following components but check the right folder for your parts list.
-* 1x PCB
+* 1x PCB (gerber file)
 * 17x Kailh Hotswap Sockets (rev 2)
 * 17x MX-style mechanical switches
 * 22x 1n4148 diodes (thru hole)
 * 1x Waveshare RP2040-Plus, Raspberry Pi Pico or pin-compatible MCU based on RP2040
+* 2x 1x20 Pin header (or mcu, where it is pre-soldered)
 * 6x EC11 rotary encoder with pushbutton (7-pin)
-* (optional) 16x SK6812 mini e LEDs
 * 1x 0.91" 128X32 OLED Display (Please note the pinout; there are different ones, and it must also be +5V compatible.)
-* (Pin header for the OLED display + for the MCU) 1x4 male headers + 1x4 female headers and ...
+* 1x 1x4 male headers (Pin header male and female for the OLED display)
+* 1x 1x4 female headers
+* (optional) 16x SK6812 mini e LEDs
 
 #### 3. Assemble your 17B06E-Macropad
 For this step you will need a minimum of a soldering iron and a pair of tweezers
-- Solder the diodes, switches, and Waveshare RP2040-Plus to the PCB
+- Solder the diodes, Hotswap Sockets, Rotary Encoder, (LEDs) and MCU (Pi Pico) to the PCB
+
+#### Notes on soldering
+
+It's recommended to start with the Sockets and then add the remaining parts.
+
+Solder the SK6812 LEDs with the missing corners aligned with the corners printed on the PCB as shown in the image.
+
+*NOTE:* the orientation of the LEDs changes between the lines!
+
+![rgb](img/rgb_mounting.jpg)
+
 
 #### 4. Flash your firmware
+##### Enter bootloader mode:
+The method varies for other boards, but on the Pi Pico for example you can hold the BOOTSEL button while plugging it in and it should also enter the bootloader.
+
+The controller should reboot and enter the bootloader mode automatically - you will see a flash drive pop up on you PC called RPI-RP2
+
+##### Copy firmware:
+You can take your keyboardfirmware.u2f file and copy it to the mounted drive. It will unmount and reboot itself. If the firmware flashing process succeeded, you will have a working keyboard. If not, please repeat the procedure. Since the bootloader is edged into ROM, it can’t be bricked. You are very unlikely to break something.
+
+
+##### QMK (alternative option):
 You can use QMK to create and flash firmware to your 17B06E-Macropad. You can configure every key to you can use the QMK configurator. Head over to the [QMK configurator](https://config.qmk.fm/#/friedrich/LAYOUT) and select 17b06e_macropad/[your version]. Once you have configured your board, click on compile and then on firmware to download the firmware. Check [qmk_firmware/keyboards/17b06e_macropad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/17b06e_macropad) for compiling & uploading instructions
 
 
+#### 5. 3D printing case
+I have uploaded the files for printing the housing to the various platforms.
+The files and the FreeCAD file for modifications (mods/accessories) are also available here. If it doesn't fit, please let me know so I can make a change for everyone.
+* [Github](/case/)
+* [MakerWorld](https://makerworld.com/)
+* [Printables](https://www.printables.com/)
+* [Thingiverse](https://www.thingiverse.com/)
 
+The links are not yet functional as they are still under development!
