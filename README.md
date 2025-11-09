@@ -9,16 +9,18 @@ The top button is used to switch profiles, giving you 16 x 4 (or more/less) butt
 * I used the KiCad template from [dumbpad](https://github.com/imchipwood/dumbpad/) to create this project. 
 * Thanks to the developer who made it possible: 
 
+
 ## Gallery
 
 ![17B06E-Macropad Front](img/fxyz.jpg)
 ![17B06E-Macropad Back](img/bxyz.jpg)
 
+
 ## Getting Started
 To build your own 17B06E Macropad, you must first follow a few steps. The following describes the minimum requirements you need to assemble a 17B06E-Macropad. 
-#### 1. Choose version. 
-~~You can choose from one of the different versions shown in the step above.~~
-#### 2. Order your parts. 
+### 1. Choose version. 
+Currently, there is only one version available.
+### 2. Order your parts. 
 Every board needs at least the following components but check the right folder for your parts list.
 * 1x PCB (gerber file)
 * 17x Kailh Hotswap Sockets (rev 2)
@@ -32,7 +34,7 @@ Every board needs at least the following components but check the right folder f
 * 1x 1x4 female headers
 * (optional) 16x SK6812 mini e LEDs
 
-#### 3. Assemble your 17B06E-Macropad
+### 3. Assemble your 17B06E-Macropad
 For this step you will need a minimum of a soldering iron and a pair of tweezers
 - Solder the diodes, Hotswap Sockets, Rotary Encoder, (LEDs) and MCU (Pi Pico) to the PCB
 
@@ -47,7 +49,7 @@ Solder the SK6812 LEDs with the missing corners aligned with the corners printed
 ![rgb](img/rgb_mounting.jpg)
 
 
-#### 4. Flash your firmware
+### 4. Flash your firmware
 ##### Enter bootloader mode:
 The method varies for other boards, but on the Pi Pico for example you can hold the BOOTSEL button while plugging it in and it should also enter the bootloader.
 
@@ -56,17 +58,24 @@ The controller should reboot and enter the bootloader mode automatically - you w
 ##### Copy firmware:
 You can take your keyboardfirmware.u2f file and copy it to the mounted drive. It will unmount and reboot itself. If the firmware flashing process succeeded, you will have a working keyboard. If not, please repeat the procedure. Since the bootloader is edged into ROM, it can’t be bricked. You are very unlikely to break something.
 
-
 ##### QMK (alternative option):
-You can use QMK to create and flash firmware to your 17B06E-Macropad. You can configure every key to you can use the QMK configurator. Head over to the [QMK configurator](https://config.qmk.fm/#/friedrich/LAYOUT) and select 17b06e_macropad/[your version]. Once you have configured your board, click on compile and then on firmware to download the firmware. Check [qmk_firmware/keyboards/17b06e_macropad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/17b06e_macropad) for compiling & uploading instructions
+You can use QMK to create and flash firmware to your 17B06E-Macropad. You can configure every key to you can use the QMK configurator. Head over to the [QMK configurator](https://config.qmk.fm/#/) and select 17b06e_macropad/[your version]. Once you have configured your board, click on compile and then on firmware to download the firmware. Check [qmk_firmware/keyboards/17b06e_macropad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/17b06e_macropad) for compiling & uploading instructions
 
 
-#### 5. 3D printing case
+### 5. 3D printing case
 I have uploaded the files for printing the housing to the various platforms.
-The files and the FreeCAD file for modifications (mods/accessories) are also available here. If it doesn't fit, please let me know so I can make a change for everyone.
+The files and the FreeCAD file for modifications (mods/accessories) are also available here.
 * [Github](/case/)
 * [MakerWorld](https://makerworld.com/)
 * [Printables](https://www.printables.com/)
 * [Thingiverse](https://www.thingiverse.com/)
 
-The links are not yet functional as they are still under development!
+**<ins>The links are not yet functional as they are still under development!</ins>**
+
+
+### 6. Adjust buttons and decoders
+There are several ways to change the keys. I will list them here:
+* [QMK](https://config.qmk.fm/#/)
+* [VIA](https://www.usevia.app/) (Website, Recommended)
+* [Vial Web](https://vial.rocks/) (Website, Recommended)
+* [Vial Download](https://get.vial.today/download/) (Download, Beta)
