@@ -42,6 +42,8 @@ For this step you will need a minimum of a soldering iron and a pair of tweezers
 
 It's recommended to start with the Sockets and then add the remaining parts.
 
+The encoders must be soldered before the MCU!
+
 Solder the SK6812 LEDs with the missing corners aligned with the corners printed on the PCB as shown in the image.
 
 *NOTE:* the orientation of the LEDs changes between the lines!
