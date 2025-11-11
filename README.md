@@ -48,7 +48,7 @@ Solder the SK6812 LEDs with the missing corners aligned with the corners printed
 
 *NOTE:* the orientation of the LEDs changes between the lines!
 
-![rgb](img/rgb_mounting.jpg)
+![rgb](img/rgb_mounting.webp)
 
 
 ### 4. Flash your firmware
