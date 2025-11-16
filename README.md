@@ -7,8 +7,7 @@ The top button is used to switch profiles, giving you 16 x 4 (or more/less) butt
 
 ### sources / what was used:
 * I used the KiCad template from [dumbpad](https://github.com/imchipwood/dumbpad/) to create this project. 
-* Many thanks to the developer who made the firmware and thus the project possible: *** 
-
+* Many thanks to the developer who made the firmware and thus the project possible: FabiClawZ / [FFS2309 (old name)](https://github.com/FFS2309)
 
 ## Gallery
 
@@ -20,6 +19,7 @@ The top button is used to switch profiles, giving you 16 x 4 (or more/less) butt
 To build your own 17B06E Macropad, you must first follow a few steps. The following describes the minimum requirements you need to assemble a 17B06E-Macropad. 
 ### 1. Choose version. 
 Currently, there is only one version available.
+The firmware is located in the [firmware](firmware/) folder.
 ### 2. Order your parts. 
 Every board needs at least the following components but check the right folder for your parts list.
 * 1x PCB (gerber file)
@@ -61,7 +61,7 @@ The method varies for other boards, but on the Pi Pico for example you can hold 
 The controller should reboot and enter the bootloader mode automatically - you will see a flash drive pop up on you PC called RPI-RP2
 
 ##### Copy firmware:
-You can take your keyboardfirmware.u2f file and copy it to the mounted drive. It will unmount and reboot itself. If the firmware flashing process succeeded, you will have a working keyboard. If not, please repeat the procedure. Since the bootloader is edged into ROM, it can’t be bricked. You are very unlikely to break something.
+You can take your *.uf2 file and copy it to the mounted drive. It will unmount and reboot itself. If the firmware flashing process succeeded, you will have a working keyboard. If not, please repeat the procedure. Since the bootloader is edged into ROM, it can’t be bricked. You are very unlikely to break something.
 
 ##### QMK (alternative option):
 You can use QMK to create and flash firmware to your 17B06E-Macropad. You can configure every key to you can use the QMK configurator. Head over to the [QMK configurator](https://config.qmk.fm/#/) and select 17b06e_macropad/[your version]. Once you have configured your board, click on compile and then on firmware to download the firmware. Check [qmk_firmware/keyboards/17b06e_macropad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/17b06e_macropad) for compiling & uploading instructions
