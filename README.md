@@ -7,7 +7,7 @@ The top button is used to switch profiles, giving you 16 x 4 (or more/less) butt
 
 ### sources / what was used:
 * I used the KiCad template from [dumbpad](https://github.com/imchipwood/dumbpad/) to create this project. 
-* Thanks to the developer who made it possible: 
+* Many thanks to the developer who made the firmware and thus the project possible: *** 
 
 
 ## Gallery
@@ -25,18 +25,21 @@ Every board needs at least the following components but check the right folder f
 * 1x PCB (gerber file)
 * 17x Kailh Hotswap Sockets (rev 2)
 * 17x MX-style mechanical switches
+* 17x Keycaps (I use the AXYB keycap, where you can remove the cap. There is also a u1 version.)
 * 22x 1n4148 diodes (thru hole)
 * 1x Waveshare RP2040-Plus, Raspberry Pi Pico or pin-compatible MCU based on RP2040
 * 2x 1x20 Pin header (or mcu, where it is pre-soldered)
 * 6x EC11 rotary encoder with pushbutton (7-pin)
-* 1x 0.91" 128X32 OLED Display (Please note the pinout; there are different ones, and it must also be +5V compatible.)
-* 1x 1x4 male headers (Pin header male and female for the OLED display)
-* 1x 1x4 female headers
+* (optional) 1x 0.91" 128X32 OLED Display (Please note the pinout; there are different ones, and it must also be +5V compatible.)
+* (optional) 1x 1x4 male headers (Pin header male and female for the OLED display)
+* (optional) 1x 1x4 female headers
 * (optional) 16x SK6812 mini e LEDs
 
 ### 3. Assemble your 17B06E-Macropad
 For this step you will need a minimum of a soldering iron and a pair of tweezers
 - Solder the diodes, Hotswap Sockets, Rotary Encoder, (LEDs) and MCU (Pi Pico) to the PCB
+- When testing, do not look directly into the LEDs, as they are very bright!
+You can also see the LEDs on the back when they are lit, but not as brightly. Use keycaps.
 
 #### Notes on soldering
 
@@ -70,7 +73,6 @@ The files and the FreeCAD file for modifications (mods/accessories) are also ava
 * [Github](/case/)
 * [MakerWorld](https://makerworld.com/)
 * [Printables](https://www.printables.com/)
-* [Thingiverse](https://www.thingiverse.com/)
 
 **<ins>The links are not yet functional as they are still under development!</ins>**
 
