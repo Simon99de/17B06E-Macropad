@@ -64,7 +64,7 @@ The controller should reboot and enter the bootloader mode automatically - you w
 You can take your *.uf2 file and copy it to the mounted drive. It will unmount and reboot itself. If the firmware flashing process succeeded, you will have a working keyboard. If not, please repeat the procedure. Since the bootloader is edged into ROM, it can’t be bricked. You are very unlikely to break something.
 
 ##### QMK (alternative option):
-You can use QMK to create and flash firmware to your 17B06E-Macropad. You can configure every key to you can use the QMK configurator. Head over to the [QMK configurator](https://config.qmk.fm/#/) and select 17b06e_macropad/[your version]. Once you have configured your board, click on compile and then on firmware to download the firmware. Check [qmk_firmware/keyboards/17b06e_macropad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/17b06e_macropad) for compiling & uploading instructions
+You can use QMK to create and flash firmware to your 17B06E-Macropad. You can configure every key to you can use the QMK configurator. Head over to the [QMK configurator](https://config.qmk.fm/#/simon99de/17b06e) and select 17b06e_macropad/[your version]. Once you have configured your board, click on compile and then on firmware to download the firmware. Check [qmk_firmware/keyboards/17b06e_macropad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/simon99de/17b06e) for compiling & uploading instructions
 
 
 ### 5. 3D printing case
