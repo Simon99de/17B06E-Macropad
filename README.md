@@ -7,7 +7,7 @@ The top button is used to switch profiles, giving you 16 x 4 (or more/less) butt
 
 ### sources / what was used:
 * I used the KiCad template from [dumbpad](https://github.com/imchipwood/dumbpad/) to create this project. 
-* Many thanks to the developer who made the firmware and thus the project possible: FabiClawZ / [FFS2309 (old name)](https://github.com/FFS2309)
+* Many thanks to the developer who made the firmware and thus the project possible: [FabiClawZ](https://github.com/FFS2309)
 
 ## Gallery
 
@@ -30,7 +30,7 @@ Every board needs at least the following components but check the right folder f
 * 1x Waveshare RP2040-Plus, Raspberry Pi Pico or pin-compatible MCU based on RP2040
 * 2x 1x20 Pin header (or mcu, where it is pre-soldered)
 * 6x EC11 rotary encoder with pushbutton (7-pin)
-* (optional) 1x 0.91" 128X32 OLED Display (Please note the pinout; there are different ones, and it must also be +5V compatible.)
+* (optional) 1x 0.91" 128X32 OLED Display (Please note the pinout (I2C); there are different ones, and it must also be +5V compatible.)
 * (optional) 1x 1x4 male headers (Pin header male and female for the OLED display)
 * (optional) 1x 1x4 female headers
 * (optional) 16x SK6812 mini e LEDs
@@ -58,14 +58,15 @@ Solder the SK6812 LEDs with the missing corners aligned with the corners printed
 ### 4. Flash your firmware
 ##### Enter bootloader mode:
 The method varies for other boards, but on the Pi Pico for example you can hold the BOOTSEL button while plugging it in and it should also enter the bootloader.
+Alternatively you can bind the `QK_BOOT` key and press it to have the MCU reboot into bootloader. By default this is bound to the press of the bottom right encoder on the second layer.
 
 The controller should reboot and enter the bootloader mode automatically - you will see a flash drive pop up on you PC called RPI-RP2
 
 ##### Copy firmware:
-You can take your *.uf2 file and copy it to the mounted drive. It will unmount and reboot itself. If the firmware flashing process succeeded, you will have a working keyboard. If not, please repeat the procedure. Since the bootloader is edged into ROM, it can’t be bricked. You are very unlikely to break something.
+You can take your *.uf2 file and copy it to the mounted drive. It will unmount and reboot itself. If the firmware flashing process succeeded, you will have a working keyboard. If not, please repeat the procedure. Since the bootloader is etched into ROM, it can’t be bricked. You are very unlikely to break something.
 
 ##### QMK (alternative option):
-You can use QMK to create and flash firmware to your 17B06E-Macropad. You can configure every key to you can use the QMK configurator. Head over to the [QMK configurator](https://config.qmk.fm/#/simon99de/17b06e) and select 17b06e_macropad/[your version]. Once you have configured your board, click on compile and then on firmware to download the firmware. Check [qmk_firmware/keyboards/17b06e_macropad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/simon99de/17b06e) for compiling & uploading instructions
+You can use QMK to create and flash firmware to your 17B06E-Macropad. You can configure every key using the QMK configurator. Head over to the [QMK configurator](https://config.qmk.fm/#/simon99de/17b06e/rgb) and select simon99de/17b06e/\[norgb|rgb\]. Once you have configured your board, click on compile and then on firmware to download the firmware. Check [qmk_firmware/keyboards/simon99de/17b06e](https://github.com/qmk/qmk_firmware/tree/master/keyboards/simon99de/17b06e) for compiling & uploading instructions
 
 
 ### 5. 3D printing case
