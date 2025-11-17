@@ -34,6 +34,7 @@ Every board needs at least the following components but check the right folder f
 * (optional) 1x 1x4 male headers (Pin header male and female for the OLED display)
 * (optional) 1x 1x4 female headers
 * (optional) 16x SK6812 mini e LEDs
+* (optional) 4x (Uni-Fine) Protective rubber buffer (For the case, so that it doesn't slip. I've had good experiences with it.)
 * (recommended) 8x M2x12 Hexagon socket head cap screws - DIN 912 (ISO 4762) - (for the case to be screwed together)
 
 ### 3. Assemble your 17B06E-Macropad
