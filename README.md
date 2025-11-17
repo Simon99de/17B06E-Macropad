@@ -81,7 +81,7 @@ The files and the FreeCAD file for modifications (mods/accessories) are also ava
 
 ### 6. Adjust buttons and decoders
 There are several ways to change the keys. I will list them here:
-* [QMK](https://config.qmk.fm/#/)
+* [QMK](https://config.qmk.fm/#/simon99de/17b06e/rgb)
 * [VIA](https://www.usevia.app/) (Website, Recommended)
 * [Vial Web](https://vial.rocks/) (Website, Recommended)
 * [Vial Download](https://get.vial.today/download/) (Download, Beta)
