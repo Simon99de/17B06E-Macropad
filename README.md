@@ -85,3 +85,14 @@ There are several ways to change the keys. I will list them here:
 * [VIA](https://www.usevia.app/) (Website, Recommended)
 * [Vial Web](https://vial.rocks/) (Website, Recommended)
 * [Vial Download](https://get.vial.today/download/) (Download, Beta)
+
+
+
+## Other
+
+### known issues
+#### Control knob does not function
+If one encoder no longer outputs, the other in the matrix is not turned to a snap point, causing the problem. SW1 + SW2, SW4 + SW5, and SW3 + SW6 are in one matrix. There are three matrices to prevent false outputs and still save pins.
+
+![encoder matrix](img/encoder_matrix.webp)
+
