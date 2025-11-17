@@ -94,5 +94,7 @@ There are several ways to change the keys. I will list them here:
 #### Control knob does not function
 If one encoder no longer outputs, the other in the matrix is not turned to a snap point, causing the problem. SW1 + SW2, SW4 + SW5, and SW3 + SW6 are in one matrix. There are three matrices to prevent false outputs and still save pins.
 
+So if, for example, the upper SW4 on the blue line does not work, then the encoder SW5 is not properly engaged.
+
 ![encoder matrix](img/encoder_matrix.webp)
 
