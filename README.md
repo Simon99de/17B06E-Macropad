@@ -15,6 +15,7 @@ The top button is used to switch profiles, giving you 16 x 4 (or more/less) butt
 | ![17B06E-Macropad Front 1](img/front1.webp)  | ![17B06E-Macropad Back 1](img/back1.webp) |
 | ------------- | ------------- |
 | ![17B06E-Macropad Back 2](img/back2.webp)  | ![17B06E-Macropad Site 1](img/site1.webp)  |
+| ![17B06E-Macropad oled 1](img/oled.webp)  |   |
 
 
 
