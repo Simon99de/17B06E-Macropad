@@ -103,3 +103,10 @@ So if, for example, the upper SW4 on the blue line does not work, then the encod
 
 ![encoder matrix](img/encoder_matrix.webp)
 
+
+### MCU (pico) factory reset
+If you want to completely reset the RP2040-based board, Raspberry has provided a file [HERE](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#resetting-flash-memory) for this purpose.
+After reinserting the board, the MCU will be completely erased and all macros and settings will also be deleted!
+
+After that, you can flash the firmware again and you will then have the default settings back.
+
