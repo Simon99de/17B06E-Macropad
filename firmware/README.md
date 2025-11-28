@@ -21,5 +21,23 @@ I accept no liability for damage!
 
 ----------
 
+## Default Firmware
+Developed by [FabiClawZ](https://github.com/FFS2309)
+
+qmk: [qmk firmware](https://github.com/FFS2309/qmk_firmware/tree/17B06E)
+
+Firmware File: [BETA! simon99de_17b06e_rgb_vial.uf2](beta-simon99de_17b06e_rgb_vial.uf2)
+
+### Functions
+* All 17 keys are assignable (differently for each layer). (The 17th key is intended for switching layers.)
+* All 6 encoders are adjustable differently for each layer.
+* It currently has 4 layers (beta).
+* 4x4 RGB lighting. (Can be changed via keys in the beta.)
+* The display (OLED) shows the current layer and whether Caps Lock and Numpad are on or off.
+In beta, the display turns off after 60 seconds.
+
+The beta is only compatible with Vial!
+
+#### 
 
 
