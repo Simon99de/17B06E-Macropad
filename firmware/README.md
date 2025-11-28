@@ -38,6 +38,9 @@ In beta, the display turns off after 60 seconds.
 
 The beta is only compatible with Vial!
 
+#### Picture:
+![Default OLED](img/default-oled.webp)
+
 #### 
 
 
