@@ -1,4 +1,6 @@
 # 17B06E-Macropad
+Eine deutsche Anleitung findest du auf meiner Website: [Simon99.de](https://simon99.de/17b06e-macropad/)
+
 It is a simple 4x4 (+1) numpad with 6 rotary encoders, 4x4 RGB LEDs, OLED display, and hot-swap keys.
 
 You can customize all 6 encoders and 17 keys however you want. It also supports multiple layers (/pages), which means that a single key can do much more. (That's why the keyboard has 17 keys instead of 16.)
