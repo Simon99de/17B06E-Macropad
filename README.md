@@ -1,8 +1,12 @@
 # 17B06E-Macropad
 It is a simple 4x4 (+1) numpad with 6 rotary encoders, 4x4 RGB LEDs, OLED display, and hot-swap keys.
+
 You can customize all 6 encoders and 17 keys however you want. It also supports multiple layers (/pages), which means that a single key can do much more. (That's why the keyboard has 17 keys instead of 16.)
+
 For me, it was an upgrade from the Dumbpad v3.x.
+
 It can be an alternative to various keyboards such as Streamdeck+, Loupdeck Live, etc. if you don't need the screen behind the keys. In addition, the Macropad keyboard does not require any background software to function, which means increased compatibility.
+
 Powered by QMK via Waveshare RP2040-Plus / Raspberry Pi Pico (1).
 
 ### What does 17B06E mean?
