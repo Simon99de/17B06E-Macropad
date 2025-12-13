@@ -36,6 +36,7 @@ It would be great if you could contact me and let me know where I might need to 
 Developed by [Simon99de](https://github.com/Simon99de) 
 
 Github STL File: [...Scarlett-Solo-gen4-Top_Stand.stl](17B06E-Macropad_Mod_Scarlett-Solo-gen4-Top_Stand.stl)
+
 Github CAD File: [...Scarlett-Solo-gen4.FCStd](17B06E-Macropad_Mod_Scarlett-Solo-gen4.FCStd)
 
 files: 
