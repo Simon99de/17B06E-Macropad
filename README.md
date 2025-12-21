@@ -92,6 +92,9 @@ The files and the FreeCAD file for modifications (mods/accessories) are also ava
 * [MakerWorld](https://makerworld.com/)
 * [Printables](https://www.printables.com/)
 
+Mods:
+* [Github](/case/mods/)
+
 **<ins>The links are not yet functional as they are still under development!</ins>**
 
 
