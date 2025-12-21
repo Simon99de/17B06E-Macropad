@@ -18,10 +18,10 @@ Developed by [Simon99de](https://github.com/Simon99de)
 
 Github File: [...Cover_v1-hotswap-MCU.stl](17B06E-Macropad-Case-Mod-Cover_v1-hotswap-MCU.stl) | [...USB-C-Cover_v1-hotswap-MCU.stl](17B06E-Macropad-Case-Mod-USB-c-Cover_v1-hotswap-MCU.stl)
 
-files: 
-* MakerWorld: -
-* Printables: -
-* Thingiverse: -
+external files: 
+* MakerWorld: [17B06E Makropad (von Simon99DE)](https://makerworld.com/de/models/2140978-17b06e-macropad-by-simon99de)
+* Printables: [17B06E Macropad (by Simon99DE)](https://www.printables.com/model/1523378-17b06e-macropad-by-simon99de)
+* Thingiverse: [17B06E Macropad (by Simon99DE)](https://www.thingiverse.com/thing:7244721)
 
 ### Functions
 With these files, it is possible to plug the MCU (Pico) into a female pin header and also have a slant.
@@ -43,10 +43,10 @@ Github STL File: [...Scarlett-Solo-gen4-Top_Stand.stl](17B06E-Macropad_Mod_Scarl
 
 Github CAD File: [...Scarlett-Solo-gen4.FCStd](17B06E-Macropad_Mod_Scarlett-Solo-gen4.FCStd)
 
-files: 
-* MakerWorld: -
-* Printables: -
-* Thingiverse: -
+external files: 
+* MakerWorld: [17B06E Makropad (von Simon99DE)](https://makerworld.com/de/models/2140978-17b06e-macropad-by-simon99de)
+* Printables: [17B06E Macropad (by Simon99DE)](https://www.printables.com/model/1523378-17b06e-macropad-by-simon99de)
+* Thingiverse: [17B06E Macropad (by Simon99DE)](https://www.thingiverse.com/thing:7244721)
 
 ### Functions
 This is used to place the macropad on the Scarlett Solo Gen4. (Anti-slip or double-sided adhesive tape is recommended to prevent slipping).
