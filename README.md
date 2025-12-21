@@ -89,13 +89,12 @@ You can use QMK to create and flash firmware to your 17B06E-Macropad. You can co
 I have uploaded the files for printing the housing to the various platforms.
 The files and the FreeCAD file for modifications (mods/accessories) are also available here.
 * [Github](/case/)
-* [MakerWorld](https://makerworld.com/)
-* [Printables](https://www.printables.com/)
+* [MakerWorld](https://makerworld.com/de/models/2140978-17b06e-macropad-by-simon99de)
+* [Printables](https://www.printables.com/model/1523378-17b06e-macropad-by-simon99de)
+* [Thingiverse](https://www.thingiverse.com/thing:7244721)
 
 Mods:
 * [Github](/case/mods/)
-
-**<ins>The links are not yet functional as they are still under development!</ins>**
 
 
 ### 6. Adjust buttons and decoders
@@ -107,7 +106,7 @@ There are several ways to change the keys. I will list them here:
 
 
 
-## Other
+## Other / FAQ
 
 ### Scripts
 With [scripts](scripts/), you have the option of using different scripts and thus having more functions. Some scripts only run on certain systems!
