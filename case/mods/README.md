@@ -29,6 +29,10 @@ With these files, it is possible to plug the MCU (Pico) into a female pin header
 Please note: I have not optimized this file. I have not tested it myself yet, as I have not built one with a header.
 It would be great if you could contact me and let me know where I might need to make adjustments.
 
+### Picture:
+| ![hotswap-MCU_v1-1](img/hotswap-MCU_v1-1.webp)  | ![hotswap-MCU_v1-2](img/hotswap-MCU_v1-2.webp) |
+| ------------- | ------------- |
+
 #### 
 ----------
 
@@ -49,8 +53,8 @@ This is used to place the macropad on the Scarlett Solo Gen4. (Anti-slip or doub
 I don't know if other generations also work.
 
 ### Picture:
-| ![FSSg4-Top-Stand1](img/Scarlett-Solo-gen4-Top-Stand1.webp)  | ![FSSg4-Top-Stand2](img/Scarlett-Solo-gen4-Top-Stand2.webp) |  |  |
-| ------------- | ------------- | ------------- | ------------- |
+| ![FSSg4-Top-Stand1](img/Scarlett-Solo-gen4-Top-Stand1.webp)  | ![FSSg4-Top-Stand2](img/Scarlett-Solo-gen4-Top-Stand2.webp) |
+| ------------- | ------------- |
 
 #### 
 ----------
