@@ -18,7 +18,7 @@ The top button is used to switch profiles, giving you 16 x 4 (or more/less) butt
 ### sources / what was used:
 * I used the KiCad template from [dumbpad](https://github.com/imchipwood/dumbpad/) to create this project. 
 * Many thanks to the developer who made the firmware and thus the project possible: [FabiClawZ](https://github.com/FFS2309)
-* Remix of the circuit board and the housing by [Simon99de](https://github.com/Simon99de)
+* Remix of the circuit board and the housing by [Simon99de](https://github.com/Simon99de) to 17B06E-Macropad
 
 ## Gallery
 ![17B06E-Macropad Front-Site 1](img/front-site1.webp)
