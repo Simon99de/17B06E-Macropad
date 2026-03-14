@@ -128,3 +128,8 @@ After reinserting the board, the MCU will be completely erased and all macros an
 
 After that, you can flash the firmware again and you will then have the default settings back.
 
+### Buy / Sell a Kit
+Yes, you are allowed to sell kits as long as you cite the source and include the instructions. This applies even for commercial sales.
+However, please post about it in [Discussions --> Buy Kits](https://github.com/Simon99de/17B06E-Macropad/discussions/categories/buy-kits) and include the source.
+But be careful! The project is not liable for the shops or for any purchases!
+You should choose shops that offer buyer protection.
