@@ -99,8 +99,8 @@ Mods:
 
 ### 6. Adjust buttons and decoders
 There are several ways to change the keys. I will list them here:
-* [QMK](https://config.qmk.fm/#/simon99de/17b06e/rgb)
-* [VIA](https://www.usevia.app/) (Website, Recommended)
+* [QMK](https://config.qmk.fm/#/simon99de/17b06e/rgb) It doesn't work yet because it hasn't been added to [QMK](https://github.com/qmk/qmk_firmware/pull/25839).
+* [VIA](https://www.usevia.app/) (Website, ~~Recommended~~) Not working yet ^
 * [Vial Web](https://vial.rocks/) (Website, Recommended)
 * [Vial Download](https://get.vial.today/download/) (Download, Beta)
 
