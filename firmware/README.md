@@ -24,7 +24,7 @@ I accept no liability for damage!
 ## Default Firmware
 Developed by [FabiClawZ](https://github.com/FFS2309)
 
-qmk: [qmk firmware](https://github.com/FFS2309/qmk_firmware/tree/17B06E/keyboards/simon99de/17b06e)
+qmk: [qmk firmware](https://github.com/FFS2309/qmk_firmware/tree/17b06e-master/keyboards/simon99de/17b06e)
 
 Firmware File: [BETA! simon99de_17b06e_rgb_vial.uf2](beta-simon99de_17b06e_rgb_vial.uf2)
 
