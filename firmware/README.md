@@ -20,8 +20,9 @@ As always, create a fork and send a pull request.
 I accept no liability for damage!
 
 ----------
+----------
 
-## Default Firmware
+## Default RGB Firmware
 Developed by [FabiClawZ](https://github.com/FFS2309)
 
 qmk: [qmk firmware](https://github.com/FFS2309/qmk_firmware/tree/17b06e-master/keyboards/simon99de/17b06e)
@@ -31,10 +32,10 @@ Firmware File: [BETA! simon99de_17b06e_rgb_vial.uf2](beta-simon99de_17b06e_rgb_v
 ### Functions
 * All 17 keys are assignable (differently for each layer). (The 17th key is intended for switching layers.)
 * All 6 encoders are adjustable differently for each layer.
-* It currently has 4 layers (beta).
-* 4x4 RGB lighting. (Can be changed via keys in the beta.)
+* It currently has 4 layers.
+* 4x4 RGB lighting. (Can be changed)
 * The display (OLED) shows the current layer and whether Caps Lock and Numpad are on or off.
-In beta, the display turns off after 60 seconds.
+The display turns off after 60 seconds to prevent screen burn-in.
 
 The beta is only compatible with Vial!
 
@@ -44,5 +45,27 @@ The beta is only compatible with Vial!
 | ------------- | ------------- | ------------- | ------------- |
 
 #### 
+----------
 
+## No-RGB Firmware
+Developed by [FabiClawZ](https://github.com/FFS2309)
 
+qmk: [qmk firmware](https://github.com/FFS2309/qmk_firmware/tree/17b06e-master/keyboards/simon99de/17b06e)
+
+Firmware File: [BETA! simon99de_17b06e_no-rgb_vial.uf2](beta-simon99de_17b06e_no-rgb_vial.uf2)
+
+### Functions
+* All 17 keys are assignable (differently for each layer). (The 17th key is intended for switching layers.)
+* All 6 encoders are adjustable differently for each layer.
+* It currently has 4 layers.
+* The display (OLED) shows the current layer and whether Caps Lock and Numpad are on or off.
+The display turns off after 60 seconds to prevent screen burn-in.
+
+The beta is only compatible with Vial!
+
+#### Picture:
+
+| ![No-RGB OLED 1](img/No-RGB-oled1.webp)  | ![No-RGB OLED 2](img/No-RGB-oled2.webp) | ![No-RGB OLED 3](img/No-RGB-oled3.webp) | ![No-RGB OLED 4](img/No-RGB-oled4.webp) |
+| ------------- | ------------- | ------------- | ------------- |
+
+#### 
