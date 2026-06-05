@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "17B06E-Macropad")(type "KiCad")(uri "$(KIPRJMOD)/17B06E-Macropad.pretty")(options "")(descr ""))
+  (lib (name "RaspberryPi_Pico_No_WIFI")(type "KiCad")(uri "${KIPRJMOD}/17B06E-Macropad.pretty/RaspberryPi_Pico_No_WIFI.pretty")(options "")(descr ""))
+)
