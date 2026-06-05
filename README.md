@@ -37,7 +37,7 @@ Currently, there is only one version available.
 The firmware is located in the [firmware](firmware/) folder.
 ### 2. Order your parts. 
 Every board needs at least the following components but check the right folder for your parts list.
-* 1x PCB (gerber file)
+* 1x PCB ([gerber file](17B06E-Macropad_gerber_v1.0.zip))
 * 17x Kailh Hotswap Sockets (rev 2)
 * 17x MX-style mechanical switches
 * 17x Keycaps (I use the AXYB keycap, where you can remove the cap. There is also a u1 version.)
