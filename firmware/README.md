@@ -25,7 +25,9 @@ I accept no liability for damage!
 ## Vial RGB Firmware
 Developed by [FabiClawZ](https://github.com/FFS2309)
 
-qmk: [qmk firmware](https://github.com/FFS2309/qmk_firmware/tree/17b06e-master/keyboards/simon99de/17b06e)
+qmk: [qmk firmware](https://github.com/FFS2309/qmk_firmware/tree/17b06e-master/keyboards/simon99de/17b06e) ||
+vial: [vial firmware](https://github.com/FFS2309/vial-qmk/tree/17b06e-vial/keyboards/simon99de/17b06e)
+
 
 Firmware File: [simon99de_17b06e_rgb_vial.uf2](simon99de_17b06e_rgb_vial.uf2)
 
@@ -50,7 +52,8 @@ The beta is only compatible with Vial!
 ## No-RGB Vial Firmware
 Developed by [FabiClawZ](https://github.com/FFS2309)
 
-qmk: [qmk firmware](https://github.com/FFS2309/qmk_firmware/tree/17b06e-master/keyboards/simon99de/17b06e)
+qmk: [qmk firmware](https://github.com/FFS2309/qmk_firmware/tree/17b06e-master/keyboards/simon99de/17b06e) ||
+vial: [vial firmware](https://github.com/FFS2309/vial-qmk/tree/17b06e-vial/keyboards/simon99de/17b06e)
 
 Firmware File: [simon99de_17b06e_no-rgb_vial.uf2](simon99de_17b06e_norgb_vial.uf2)
 
