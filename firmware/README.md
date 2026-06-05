@@ -22,12 +22,12 @@ I accept no liability for damage!
 ----------
 ----------
 
-## Default RGB Firmware
+## Vial RGB Firmware
 Developed by [FabiClawZ](https://github.com/FFS2309)
 
 qmk: [qmk firmware](https://github.com/FFS2309/qmk_firmware/tree/17b06e-master/keyboards/simon99de/17b06e)
 
-Firmware File: [BETA! simon99de_17b06e_rgb_vial.uf2](beta-simon99de_17b06e_rgb_vial.uf2)
+Firmware File: [simon99de_17b06e_rgb_vial.uf2](simon99de_17b06e_rgb_vial.uf2)
 
 ### Functions
 * All 17 keys are assignable (differently for each layer). (The 17th key is intended for switching layers.)
@@ -47,12 +47,12 @@ The beta is only compatible with Vial!
 #### 
 ----------
 
-## No-RGB Firmware
+## No-RGB Vial Firmware
 Developed by [FabiClawZ](https://github.com/FFS2309)
 
 qmk: [qmk firmware](https://github.com/FFS2309/qmk_firmware/tree/17b06e-master/keyboards/simon99de/17b06e)
 
-Firmware File: [BETA! simon99de_17b06e_no-rgb_vial.uf2](beta-simon99de_17b06e_no-rgb_vial.uf2)
+Firmware File: [simon99de_17b06e_no-rgb_vial.uf2](simon99de_17b06e_norgb_vial.uf2)
 
 ### Functions
 * All 17 keys are assignable (differently for each layer). (The 17th key is intended for switching layers.)
