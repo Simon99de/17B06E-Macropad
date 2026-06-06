@@ -36,10 +36,11 @@ Firmware File: [simon99de_17b06e_rgb_vial.uf2](simon99de_17b06e_rgb_vial.uf2)
 * All 6 encoders are adjustable differently for each layer.
 * It currently has 4 layers.
 * 4x4 RGB lighting. (Can be changed)
+* You have 100 macros available
 * The display (OLED) shows the current layer and whether Caps Lock and Numpad are on or off.
 The display turns off after 60 seconds to prevent screen burn-in.
 
-The beta is only compatible with Vial!
+The current version is only compatible with Vial, as it hasn't been added to qmk yet!
 
 #### Picture:
 
@@ -61,10 +62,11 @@ Firmware File: [simon99de_17b06e_no-rgb_vial.uf2](simon99de_17b06e_norgb_vial.uf
 * All 17 keys are assignable (differently for each layer). (The 17th key is intended for switching layers.)
 * All 6 encoders are adjustable differently for each layer.
 * It currently has 4 layers.
+* You have 100 macros available
 * The display (OLED) shows the current layer and whether Caps Lock and Numpad are on or off.
 The display turns off after 60 seconds to prevent screen burn-in.
 
-The beta is only compatible with Vial!
+The current version is only compatible with Vial, as it hasn't been added to qmk yet!
 
 #### Picture:
 
