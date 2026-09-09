@@ -1,5 +1,5 @@
 # 17B06E-Macropad (by Simon99de)
-Eine deutsche Anleitung findest du auf meiner Website: [Simon99.de](https://simon99.de/17b06e-macropad/)
+Eine deutsche Anleitung findest du auf meiner Website: [Simon99.de](https://simon99.de/blog/17b06e-macropad/)
 
 It is a simple 4x4 (+1) numpad with 6 rotary encoders, 4x4 RGB LEDs, OLED display, and hot-swap keys.
 
