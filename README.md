@@ -1,4 +1,10 @@
 # 17B06E-Macropad (by Simon99de)
+> [!WARNING]
+> Please note: The code is no longer being updated on GitHub!
+> 
+> The project has been moved to [Codeberg](https://codeberg.org/Simon99de/17B06E-Macropad)!
+
+***
 Eine deutsche Anleitung findest du auf meiner Website: [Simon99.de](https://simon99.de/blog/17b06e-macropad/)
 
 It is a simple 4x4 (+1) numpad with 6 rotary encoders, 4x4 RGB LEDs, OLED display, and hot-swap keys.
