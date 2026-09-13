@@ -94,6 +94,7 @@ You can use QMK to create and flash firmware to your 17B06E-Macropad. You can co
 ### 5. 3D printing case
 I have uploaded the files for printing the housing to the various platforms.
 The files and the FreeCAD file for modifications (mods/accessories) are also available here.
+* [Codeberg](https://codeberg.org/Simon99de/17B06E-Macropad)
 * [Github](/case/)
 * [MakerWorld](https://makerworld.com/de/models/2140978-17b06e-macropad-by-simon99de)
 * [Printables](https://www.printables.com/model/1523378-17b06e-macropad-by-simon99de)
@@ -101,6 +102,7 @@ The files and the FreeCAD file for modifications (mods/accessories) are also ava
 
 Mods:
 * [Github](/case/mods/)
+* [Codeberg](https://codeberg.org/Simon99de/17B06E-Macropad)
 
 
 ### 6. Adjust buttons and decoders
@@ -136,6 +138,6 @@ After that, you can flash the firmware again and you will then have the default 
 
 ### Buy / Sell a Kit
 Yes, you are allowed to sell kits as long as you cite the source and include the instructions. This applies even for commercial sales.
-However, please post about it in [Discussions --> Buy Kits](https://github.com/Simon99de/17B06E-Macropad/discussions/categories/buy-kits) and include the source.
+However, please post about it in [Codeberg](https://codeberg.org/Simon99de/17B06E-Macropad) and include the source.
 But be careful! The project is not liable for the shops or for any purchases!
 You should choose shops that offer buyer protection.
